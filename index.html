@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WarKop</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">War<span>Kop</span></a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#products">Produk</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="login.html" id="login-button"><i data-feather="user"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/products/1.jpg" alt="Product 1">
+        <div class="item-detail">
+          <h3>Product 1</h3>
+          <div class="item-price">IDR 30K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+      <p>Nikmati Lah Secangkir Kopi Sembari Nikmati Senja</p>
+      <a href="#menu" class="cta">Lihat Menu</a>
+    </main>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/tentang.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Kenapa memilih kopi kami?</h3>
+        <p>Warung kopi, kafe, atau kedai kopi (umumnya disingkat Warkop) adalah tempat usaha yang utamanya menyajikan
+          kopi (dari berbagai jenis, misalnya espresso, latte, Macchiato, cappuccino).</p>
+        <p>Selain harga yang murah kopi kami tidak kalah kualitasnya dengan warung kopi lainnya</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="menu" class="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <p>Kami menyediakan berbagai macam menu sebagai berikut
+    </p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Espresso -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/2.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Susu -</h3>
+        <p class="menu-card-price">IDR 8K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/3.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Gula Aren -</h3>
+        <p class="menu-card-price">IDR 17K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Latte -</h3>
+        <p class="menu-card-price">IDR 20k</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/5.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Hitam -</h3>
+        <p class="menu-card-price">IDR 5k</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/6.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Macchiato -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/7.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Cappuccino -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/4.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Latte -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/3.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Kopi Gula Aren -</h3>
+        <p class="menu-card-price">IDR 15K</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- Products Section start -->
+  <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Berikut adalah produk unggulan kami</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button1"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/menu/3.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Kopi Gula Aren</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 17K <span>IDR 22K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button2"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/menu/4.jpg" alt="Product 2">
+        </div>
+        <div class="product-content">
+          <h3>Kopi Latte</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 20K <span>IDR 25K</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button3"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/menu/6.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Kopi Macchiato</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 15K <span>IDR 20K</span></div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button4"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/menu/7.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Cappuccino</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 15K <span>IDR 20K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Products Section end -->
+
+  <!-- Contact Section start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Silahkan hubungi kami jika anda tertarik dengan menu kami
+    </p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3533103300438!2d106.88180181476903!3d-6.217052295499468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f36a76939ce9%3A0x1dd69348f251fa2a!2sSMK%20Negeri%2046%20JAKARTA!5e0!3m2!1sid!2sid!4v1684640895819!5m2!1sid!2sid"
+        allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="Masukan Nama Anda">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="Masukan Email Anda">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="Masukan Nomor Anda">
+        </div>
+        <button type="submit" class="btn">Kirim esan</button>
+      </form>
+
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by &copy;<a href="index.html">WarKop</a>.  2023.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal1">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/menu/4.jpg" alt="Product 1">
+        <div class="product-content">
+          <h3>Kopi Gula Aren</h3>
+          <p>Es kopi susu kekinian (kadang disebut es kopi susu gula aren) adalah istilah untuk mencakup jenis racikan
+            kopi yang mengandung susu dan gula aren. Racikan ini umumnya disajikan dingin dengan es dalam kemasan gelas
+            plastik bertutup.</p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="item-detail-modal2">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/menu/4.jpg" alt="Product 2">
+        <div class="product-content">
+          <h3>Kopi Latte</h3>
+          <p>Kopi latte adalah salah satu minuman kopi yang populer di seluruh dunia. Minuman ini terbuat dari campuran
+            espresso dan susu steamed (dipanaskan dan dikocok) yang menghasilkan rasa kopi yang kaya dan creamy.</p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="item-detail-modal3">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/menu/6.jpg" alt="Product 2">
+        <div class="product-content">
+          <h3>Kopi Macchiato</h3>
+          <p>Kopi macchiato adalah minuman kopi yang terdiri dari espresso dan sedikit susu steamed (dipanaskan dan
+            dikocok). Kata "macchiato" dalam bahasa Italia berarti "ditandai" atau "bercoret"</p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="item-detail-modal4">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/menu/7.jpg" alt="Product 2">
+        <div class="product-content">
+          <h3>Cappuccino</h3>
+          <p>Cappuccino adalah minuman kopi yang terdiri dari espresso, susu steamed (dipanaskan dan dikocok), dan busa
+            susu. Ini adalah salah satu minuman kopi paling populer di dunia.</p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Box Item Detail end -->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- My Javascript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
